@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan de Estudio - Ingeniería en Ciencias de la Computación</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="header">
+        <h1>Plan de Estudios</h1>
+        <h2>Ingeniería en Ciencias de la Computación</h2>
+    </div>
+    <div class="container">
+         <!-- Periodo I -->
+         <div class="period">
+            <div class="period-number">I</div>
+            <div class="cards">
+                <div class="card" data-toggle="modal" data-target="#modalIF2"><div class="card-title">IF2</div><div class="card-name class1">Clase 1</div></div>
+                <div class="card" data-toggle="modal" data-target="#modalIF3"><div class="card-title">IF3</div><div class="card-name class2">Clase 2</div></div>
+                <div class="card" data-toggle="modal" data-target="#modalIF4"><div class="card-title">IF4</div><div class="card-name class3">Clase 3</div></div>
+                <div class="card" data-toggle="modal" data-target="#modalIF5"><div class="card-title">IF5</div><div class="card-name class4">Clase 4</div></div>
+                <div class="card" data-toggle="modal" data-target="#modalIF6"><div class="card-title-registered">IF6</div><div class="card-name class5">Clase 5</div></div>
+            </div>
+        </div>
+
+        <!-- Periodo II -->
+        <div class="period">
+            <div class="period-number">II</div>
+            <div class="cards">
+                <div class="card" data-toggle="modal" data-target="#modalIF7"><div class="card-title-approved">IF7</div><div class="card-name class6">Clase 6</div></div>
+                <div class="card" data-toggle="modal" data-target="#modalIF8"><div class="card-title">IF8</div><div class="card-name class7">Clase 7</div></div>
+                <div class="card" data-toggle="modal" data-target="#modalIF9"><div class="card-title">IF9</div><div class="card-name class8">Clase 8</div></div>
+                <div class="card" data-toggle="modal" data-target="#modalIF10"><div class="card-title">IF10</div><div class="card-name class9">Clase 9</div></div>
+                <div class="card" data-toggle="modal" data-target="#modalIF11"><div class="card-title">IF11</div><div class="card-name class10">Clase 10</div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modales -->
+    <div class="modal fade" id="modalIF2" tabindex="-1" role="dialog" aria-labelledby="modalIF2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalIF2Label">Detalles de Clase IF2</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Periodo: I</p>
+                    <p>Nota: 90</p>
+                    <p>Estado: <i class="fas fa-check-circle text-success"></i> Aprobado</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalIF3" tabindex="-1" role="dialog" aria-labelledby="modalIF3Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalIF3Label">Detalles de Clase IF3</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Periodo: I</p>
+                    <p>Nota: 85</p>
+                    <p>Otro valor: Aprobado</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Repite para cada clase -->
+    <!-- ... -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
